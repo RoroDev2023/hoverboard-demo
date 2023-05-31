@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(21, 49, 94);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url(fonts/MinecraftTen-VGORe.ttf);
+}
+
+h1 {
+    font-family: "Minecraft";
+    font-size: 60px;
+    align-items: center;
+    margin: 90px;
+    color: white;
+}
+
+#container {
+    margin-top: 50px;
+    display: flex;
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.square {
+    background-color: #1d1d1d;
+    box-shadow: 0 0 2px #000;
+    height: 18px;
+    width: 18px;
+    margin: 2px;
+    border-radius: 5px;
+    transition: 1s ease;
+    
+}
+
+.square:hover {
+    transition-duration: 0s;
+}
+
